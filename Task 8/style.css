@@ -1,0 +1,720 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.border-bottom-grey {
+    border-bottom: 1px solid grey;
+}
+
+.pad15 {
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.pad-bottom {
+    padding-bottom: 5px;
+}
+
+.pad-tb {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.first {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/clement-fusil-Fpqx6GGXfXs-unsplash.jpg);
+    background-size: 100% 100%;
+}
+
+.first .container {
+    width: 1140px;
+    margin: 20px auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.first header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.first nav {
+    margin-right: 20px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: medium;
+}
+
+.first nav a {
+    color: lightgray;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+
+.first nav a:hover {
+    color: white
+}
+
+.first .triangle {
+    border: 5px solid transparent;
+    border-top-color: white;
+    position: relative;
+    top: 7px;
+    left: -15px;
+    margin-right: -15px;
+}
+
+.first article {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: 600;
+
+}
+
+.first article div {
+    width: 27%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+p.circle {
+    padding: 10px 15px;
+    border: 5px solid blue;
+    border-left-color: grey;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.second {
+    width: 100%;
+}
+
+.second .container {
+    width: 1140px;
+    margin: 20px auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left {
+    width: 65%;
+}
+
+.second header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.second header h2 {
+    font-size: larger;
+}
+
+.second nav {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: medium;
+}
+
+.second .triangle {
+    border: 5px solid transparent;
+    border-top-color: gray;
+    position: relative;
+    top: 10px;
+    left: 2px;
+}
+
+.second nav a {
+    color: gray;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+
+.second nav a:hover {
+    color: black;
+}
+
+.second .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.second .bottom .travel {
+    width: 45%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second .travel .content {
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 4px #000;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.second p {
+    color: gray;
+}
+
+.second span {
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+
+.second span:hover {
+    color: blue;
+}
+
+.bottom .how {
+    width: 48%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0;
+}
+
+.bottom .how div {
+    width: 100%;
+    display: flex;
+}
+
+.how div img {
+    width: 24%;
+    height: 100%;
+}
+
+.how article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 0 4px #000;
+    padding: 0 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.arrows p {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid rgba(128, 128, 128, 0.817);
+    color: rgba(128, 128, 128, 0.817);
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+
+.arrows p:hover {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.bottom2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom2 .lefttt {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.second .bottom2 .travel {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom2 .howw {
+    width: 100%;
+    display: flex;
+    height: 23%;
+}
+
+.bottom2 .howw img {
+    width: 24%;
+    height: 100%;
+}
+
+.bottom2 .howw article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 0 4px #000;
+    padding: 0 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.bottom2 .righttt {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.second aside {
+    width: 30%;
+    border-left: 1px solid gray;
+}
+
+aside .how {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+
+aside .how div {
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+aside .icons {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+aside .icons span {
+    padding: 7px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.189);
+    border-radius: 50%;
+}
+
+aside .last {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+aside .last h4 {
+    font-size: larger;
+}
+
+.third {
+    width: 100%;
+}
+
+.third .container {
+    width: 1140px;
+    margin: 20px auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.third .content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(images/road.jpg);
+    background-size: 100% 100%;
+    width: 30%;
+    padding: 30px 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.third button {
+    width: 90px;
+    font-size: 14px;
+    padding: 4px;
+    background-color: white;
+    color: blue;
+    border: none;
+}
+
+.third button {
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+.third button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.third p {
+    color: gray;
+}
+
+.third span {
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+
+.third span:hover {
+    color: blue;
+}
+
+.forth {
+    width: 100%;
+}
+
+.forth .container {
+    width: 1140px;
+    margin: 20px auto;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.forth .left {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.forth header {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.forth .how {
+    width: 100%;
+    display: flex;
+    height: 180px;
+}
+
+.forth .how img {
+    width: 24%;
+    height: 100%;
+}
+
+.forth .how article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 0 4px #000;
+    padding: 0 25px 0 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.forth p {
+    color: gray;
+}
+
+.forth span {
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+
+.forth span:hover {
+    color: blue;
+}
+
+.forth aside {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.forth .travel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    width: 100%;
+    position: relative;
+    background-image: url(images/road.jpg);
+    background-size: 100% 100%;
+    height: 180px;
+}
+
+.travel button {
+    width: 90px;
+    position: absolute;
+    font-size: 14px;
+    padding: 4px;
+    background-color: white;
+    color: blue;
+    border: none;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    left: 10px;
+    top: 10px;
+}
+
+.travel button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.forth .travel .content {
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 4px #000;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.forth .loadmore {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.forth .loadmore button {
+    width: 120px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+}
+
+.forth .loadmore button:hover {
+    background-color: blue;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+footer .container {
+    width: 1140px;
+    margin: auto;
+    padding: 70px 10px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .container div {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+footer .list {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+footer .list span {
+    width: 30%;
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+
+footer span:hover {
+    color: blue;
+}
+
+footer .container h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer input {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+
+@media (max-width:991px) {
+    .first .container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .second .container {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .second .left {
+        width: 80%;
+    }
+
+    .second aside {
+        width: 80%;
+    }
+
+    .third .container {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .third .one {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .third .two {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .third .three {
+        width: 40%;
+    }
+
+    .forth .container {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .forth .left {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .forth aside {
+        width: 70%;
+    }
+
+    footer .container {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    footer .container .one {
+        width: 70%;
+        margin-bottom: 50px;
+    }
+
+    footer .container .two {
+        width: 70%;
+        gap:25px;
+        margin-bottom: 50px;
+
+    }
+
+    footer .container .three {
+        width: 70%;
+    }
+
+}
+
+
+
+@media (max-width:767px) {
+    .second .bottom {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .second .bottom .travel {
+        width: 70%;
+    }
+
+    .bottom .how {
+        width: 70%;
+    }
+
+    .second .bottom2 {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .bottom2 .lefttt {
+        width: 70%;
+    }
+
+    .bottom2 .righttt {
+        width: 70%;
+    }
+
+    .third .one {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    .third .two {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    .third .three {
+        width: 60%;
+    }
+}

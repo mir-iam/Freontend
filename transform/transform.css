@@ -1,0 +1,32 @@
+.yellow{
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+}
+.yellow:hover{
+	transform: scaleX(2) scaleY(2);
+}
+.red{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+.red:hover{
+	transform: rotate(10deg)
+}
+.blue{
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+}
+.blue:hover{
+	transform: translatex(20px);
+}
+.green{
+	background-color: green;
+	width: 100px;
+	height: 100px;
+}
+.green:hover{
+	transform: skewX(20deg);
+}

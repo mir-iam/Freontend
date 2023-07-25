@@ -1,0 +1,612 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+	color: #fff;
+    display: flex;
+    padding: 10px 10%;
+    justify-content: space-between;
+
+}
+header div{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+#hero{
+    background-image: url(../images/bg1_files/b4.jpg);
+	color: #fff;
+    padding:100px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-size: 100% 100%;
+}
+#hero article{
+    width: 80%;
+
+}
+#hero article p{
+    margin: 15px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+
+}
+#hero article hr{
+    width: 20%;
+}
+#button1{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding: 8px 20px;
+	width: 150px;
+	height: 50px;
+}
+ #button1:hover{
+    background-color: #fff;
+    color: black;
+}
+
+form{
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+}
+form h2{
+	color: #000;
+    background-color: #eee;
+    padding: 10px 0;
+}
+form input{
+    padding: 15px 10px;
+    width: 90%;
+    border: 0;
+	margin-top: 20px;
+    border-bottom: 1px solid darkgrey;
+    margin-bottom: 10px;
+}
+#button2{
+    width: 100%;
+	margin-top: 50px;
+    background-color: orange;
+	color: #FFF;
+    border: 0;
+    padding: 10px 0;
+}
+
+.social{
+    padding: 10% 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.social article{
+    width: 100%;
+}
+.social div{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    color: lightgray;
+    font-size: 30px;
+}
+i{
+    color: dodgerblue;
+}
+i:hover{
+	color: #000;
+	cursor: pointer;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+h1 span{
+	color: orange;
+}
+h2 span{
+	color: orange;
+}
+
+article h1{
+	font-weight: 900;
+	font-size: xx-large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section#tabs{
+    background: #eee;
+    padding: 100px 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 50px;
+}
+section#tabs>div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+section#tabs>div p{
+    padding: 40px 20px;
+    background-color: #000;
+    color: #FFF;
+}
+section#tabs>div p:first-of-type{
+    background-color: orange;
+}
+section#tabs article{
+    width: 100%;
+}
+section#tabs article h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section#tabs article p{
+    margin: 15px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+}
+section#tabs article hr{
+    width: 20%;
+    height: 4px;
+    background-color: orange;
+    border: none;
+    margin-top: 10px;
+}
+section#tabs article button{
+    background-color: orange;
+    width: 20%;
+    color: #FFF;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: 0;
+    padding: 10px 10px;
+}
+section#tabs img{
+    width: 50%;
+}
+
+/* list secton */
+section#list{
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+}
+section#list img{
+    width: 50%;
+}
+section#list article{
+    width: 80%;
+}
+section#list hr{
+    width: 25%;
+    height: 3px;
+    background-color: orange;
+    border: 0px;
+    margin-top: 8px;
+}
+section#list p{
+    margin: 15px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+}
+section#list article > div{
+    display: flex;
+    justify-content: space-between;
+}
+section#list article > div i{
+    color: orange;
+    align-self: self-start;
+    padding: 7px 5px;
+    border-radius: 50%;
+    border: 1px solid orange;
+}
+section#list article > div div{
+    width: 85%;
+}
+/* pic sec */
+section#pic{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 10%;
+    align-content: space-between;
+}
+section#pic hr{
+    width: 25%;
+    height: 3px;
+    background-color: orange;
+    border: 0px;
+    margin-top: 8px;
+}
+section#pick>article p{
+    margin: 15px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: gray;
+}
+section#pick img{
+width: 50%;
+}
+
+/*option section*/
+
+section#option{
+    padding: 100px 10%;
+}
+section#option hr{
+    width: 25%;
+    height: 3px;
+    background-color: orange;
+    border: 0px;
+    margin-bottom: 10px;
+    margin-left: 415px;
+}
+section#option h1{
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+#under{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.flex p{
+    margin-right: 10px;
+}
+.flex i{
+    margin-bottom: 40px;
+    margin-left: 150px;
+    width: 200px;
+}
+/* section price */
+section#price{
+    padding: 100px 10%;
+    background-color: #eee;
+}
+section#price h1{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+section#price p{
+    text-align: center;
+    margin-top: 10px;
+}
+#justthis{
+    width: 10%;
+    height: 2px;
+    background-color: orange;
+    border: 0px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFF;
+    border: 0px;
+    width: 365px;
+    
+
+    
+}
+/* .orange{ */
+    /* background-color: orange; */
+    /* color: orange; */
+    /* width: 220px; */
+    /* border: 5px solid orange; */
+/* } */
+.white{
+    border-top: 10px solid orange;
+    margin-bottom: 15px;
+    background-color: #FFF;
+}
+.one{
+    width: 30%;
+    text-align: center;
+    margin-right: 50px
+}
+.one h5{
+    margin: 10px;
+    padding: 15px 10px;
+}
+.one h2{
+    margin: 5px;
+    padding: 5px;
+}
+.one h3{
+    margin: 10px;
+    padding: 15px;
+}
+
+.one h6{
+    padding-bottom: 5px;
+
+}
+.one hr{
+    color: darkgray;
+}
+
+
+
+
+.two{
+    width: 30%;
+    text-align: center;
+    margin-right: 50px;
+
+}
+.two h5{
+    margin: 10px;
+    padding: 15px 10px;
+}
+.two h2{
+    margin: 5px;
+    padding: 5px;
+}
+.two h3{
+    margin: 10px;
+    padding: 15px;
+}
+
+.two h6{
+    padding-bottom: 5px;
+
+}
+.two hr{
+    color: darkgray;
+}
+.three{
+    width: 30%;
+    text-align: center;
+
+}
+.three h5{
+    margin: 10px;
+    padding: 15px 10px;
+}
+.three h2{
+    margin: 5px;
+    padding: 5px;
+}
+.three h3{
+    margin: 10px;
+    padding: 15px;
+}
+
+.three h6{
+    padding-bottom: 5px;
+
+}
+.three hr{
+    color: darkgray;
+}
+.flex2{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    padding-top: 50px;
+}
+section#review{
+    padding: 100px 10%;
+    text-align: center;
+}
+section#review hr{
+    margin-top: 20px;
+    width: 5%;
+    height: 3px;
+    background-color: orange;
+    border: 0px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+section#review p{
+    color: grey;
+    margin-bottom: 40px;
+    
+}
+.flex3{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.flex3 h4{
+    color: gray;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+h3{
+    margin-top: 10px;
+    color: gray;
+}
+section#overr{
+	width: 100%;
+	background-image: url(../images/bgnew.jpg);
+	background-color: #000;
+    text-align: center;
+}
+div.overlay{
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.div10{
+	
+	color: #FFF;
+	padding: 50px 100px 80px 80px;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+section#overr h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#overr hr{
+    width: 5%;
+    color: gray;
+    margin-bottom: 20px;
+    margin-left: 560px;
+}
+section#overr h4{
+    color: lightgray;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+section#overr button{
+        background-color: transparent;
+        color: white;
+        border-color: white;
+        padding: 8px 20px;
+        width: 150px;
+        height: 50px;
+        cursor: pointer;
+}
+section#overr button:hover{
+    background-color: white;
+    color: orange;
+}
+
+
+
+section#contact{
+    padding: 100px 10%;
+    text-align: center;
+}
+section#contact p{
+    margin-bottom: 50px;
+}
+section#contact h1{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+section#contact hr{
+    margin-top: 20px;
+    width: 5%;
+    height: 3px;
+    background-color: orange;
+    border: 0px;
+    margin-bottom: 10px;
+    margin-left: 520px;
+}
+.flex4{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+input{
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px lightgrey solid;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.rightdiv{
+    width: 40%;
+}
+#message{
+    
+    height: 100px;
+    width: 500px;
+    padding-bottom: 100px;
+    margin-left: 50px;
+}
+#button6{
+    width: 20%;
+	margin-top: 50px;
+    background-color: orange;
+	color: #FFF;
+    border: 0;
+    padding: 10px 0;
+    cursor: pointer;
+}
+footer{
+    background: #000;
+    text-align: center;
+    color: lightgray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer i{
+    padding-left: 60px;
+    margin-bottom: 20px;
+    
+}
+
+@media (min-width:991px){
+    #hero{
+        justify-content: space-between;
+    }
+    #hero article{
+        width: 40%;
+
+    }
+    #hero form{
+        width: 45%;
+    }
+    .social article{
+        width: 50%;
+    }
+    .social div{
+        width: 40%;
+    }
+    section#tabs{
+        flex-direction: row;
+    }
+    section#tabs >div{
+        width: 10%;
+    }
+    section#tabs article{
+        width: 50%;
+    }
+    section#tabs img{
+        width: 30%;
+    }
+    section#list{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    section#list img{
+        width: 40%;
+    }
+    section#list article{
+        width: 40%;
+    }
+    section#pic{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    section#pick img{
+        width: 40%;
+    }
+    section#pick article{
+        width: 40%;
+    }
+    section#price{
+        flex-direction: row;
+        justify-content: space-between;
+    }    
+
+}

@@ -1,0 +1,28 @@
+	table{
+		background-image:url(images/planet.png);
+		background-repeat: no-repeat;
+		background-position:top,right;
+		background-color: transparent;
+		border-collapse: collapse;
+		border-spacing: 5px;
+		table-layout:fixed;
+		margin-left: 50px 50px 50px 50px;
+	}
+	td{
+		border-style: dashed;
+	}
+	a:link{
+		background-color: red;
+		color: #FFFFFF;
+	}
+	a:hover{
+		cursor: pointer;
+	}
+	.blue{
+		background-color: rgba(31, 159, 219, 30%);
+	}
+	caption{
+		caption-side: bottom;
+		margin: 25px 25px 25px 25px;
+		color: red;
+	}

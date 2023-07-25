@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.parent{
+	width: 1140px;
+	margin: 20px auto;
+
+}
+.div1{
+	float: left;
+	width: 25%;
+	margin-bottom: 20px;
+}
+.div1 img{
+	float: right;
+	max-width: 100%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.div2{
+	float: right;
+	width: 71%;
+	margin-bottom: 20px;
+}
+
+.div2 img{
+	float: left;
+	width: 300px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+h1{
+	margin-bottom: 20px;
+}
+p{
+	text-align: justify;
+}
+.nowrap{
+	clear: both;
+}
+.image-float{
+	float:left;
+	width: 24%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.image-float img{
+	max-width: 100%;
+	border-radius: 50%;
+}
+.margin-left{
+	margin-left: 15px;
+}
+.margin-right{
+	margin-right: 15px;
+}

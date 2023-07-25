@@ -1,0 +1,39 @@
+.container{
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+.div1{
+	height: 70px;
+	width: 70px;
+	background-color: dodgerblue;
+
+}
+.div2{
+	height: 70px;
+	width: 70px;
+	background-color: dodgerblue;
+}
+.div3{
+	height: 70px;
+	width: 70px;
+	background-color: dodgerblue;
+}
+@keyframes direction{
+	from{
+		transform: skewX(20deg);
+	}
+	to{
+		transform: skewX(-20deg);
+	}
+}
+.container{
+	animation-direction:alternate;
+	animation-duration: 5s;
+	animation-delay: 0.5s;
+	animation-name: direction;
+}
